@@ -17,11 +17,21 @@ const loading = {
         this.loadingInstance = null
     }
  }
+
+
+
+ 
 const request = axios.create({
     baseURL: process.env.VUE_APP_BASE_API,
     // baseURL:'/',
     timeout: 5000,//请求超时
 })
+
+
+
+
+
+
 //1请求拦截器
 request.interceptors.request.use(config => {
     loading.open()

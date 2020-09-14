@@ -9,6 +9,7 @@ import Goods from "./view/goods"
 import Supplier from "./view/supplier"
 Vue.use(Router);
 export default new Router({
+    // mode:"history",
     routes:[
         {
             path: '/',

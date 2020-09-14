@@ -1,8 +1,9 @@
 <template>
     <div>
-        <app-header></app-header>
-        <app-main></app-main>
-        <app-navbar></app-navbar>
+        
+        <AppHeader></AppHeader>
+        <AppMain></AppMain>
+        <AppNavbar></AppNavbar>
     </div>
 </template>
 <script>

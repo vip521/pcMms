@@ -2,7 +2,7 @@
   <div>
     <div class="navbar">
       <el-menu
-       :router="true"
+        :router="true"
         default-active="/"
         class="el-menu-vertical-demo"
         background-color="#545c64"
@@ -34,7 +34,7 @@
   </div>
 </template>
 <style  scoped>
-    .el-menu{
-        border-right :none
-    }
+.el-menu {
+  border-right: none;
+}
 </style>
